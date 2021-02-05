@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SearchUserComponent } from './search-user/search-user.component';
 // import { DatepipePipe } from './datepipe.pipe';
 // import { LogoHighlightDirective } from './logo-highlight.directive';
 
@@ -21,6 +22,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     // SearchUserComponent,
     // UserRepoListComponent,
     NotFoundComponent,
+    SearchUserComponent,
     // DatepipePipe,
     // LogoHighlightDirective
   ],
