@@ -11,11 +11,12 @@ import {HttpClientModule} from '@angular/common/http';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchUserComponent } from './search-user/search-user.component';
 import { UserDataComponent } from './user-data/user-data.component';
+import { UserRepoListComponent } from './user-repo-list/user-repo-list.component';
 // import { DatepipePipe } from './datepipe.pipe';
 // import { LogoHighlightDirective } from './logo-highlight.directive';
 
 @NgModule({
-  declarations: [ser/search-user.component';, UserDataComponent
+  declarations: [ser/search-user.component';, UserDataComponent, UserRepoListComponent
 // import { UserRepoListComponent } from './user-repo-list/user-repo-list.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
