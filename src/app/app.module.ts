@@ -5,7 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // import { UserDataComponent } from './user-data/user-data.component';
 import { NavComponent } from './nav/nav.component';
-// import { SearchUserComponent } from './search-user/search-user.component';
+import { SearchUserComponent } from './search-u-list/user-repo-list.component';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { SearchUserComponent } from './search-user/search-user.component';
+import { UserDataComponent } from './user-data/user-data.component';
+// import { DatepipePipe } from './datepipe.pipe';
+// import { LogoHighlightDirective } from './logo-highlight.directive';
+
+@NgModule({
+  declarations: [ser/search-user.component';, UserDataComponent
 // import { UserRepoListComponent } from './user-repo-list/user-repo-list.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
@@ -19,7 +29,7 @@ import { SearchUserComponent } from './search-user/search-user.component';
     AppComponent,
     // UserDataComponent,
     NavComponent,
-    // SearchUserComponent,
+    SearchUserComponent,
     // UserRepoListComponent,
     NotFoundComponent,
     SearchUserComponent,
