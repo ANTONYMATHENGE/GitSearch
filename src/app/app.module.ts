@@ -15,8 +15,8 @@ import { UserRepoListComponent } from './user-repo-list/user-repo-list.component
 import { DatepipePipe } from './datepipe.pipe';
 import { GitUserPipe } from './git-user.pipe';
 import { LogoHighlightDirective } from './logo-highlight.directive';
-// import { DatepipePipe } from './datepipe.pipe';
-// import { LogoHighlightDirective } from './logo-highlight.directive';
+import { DatepipePipe } from './datepipe.pipe';
+import { LogoHighlightDirective } from './logo-highlight.directive';
 
 @NgModule({
   declarations: [ser/search-user.component';, UserDataComponent, UserRepoListComponent, DatepipePipe, GitUserPipe, LogoHighlightDirective
@@ -25,8 +25,8 @@ import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchUserComponent } from './search-user/search-user.component';
-// import { DatepipePipe } from './datepipe.pipe';
-// import { LogoHighlightDirective } from './logo-highlight.directive';
+import { DatepipePipe } from './datepipe.pipe';
+import { LogoHighlightDirective } from './logo-highlight.directive';
 
 @NgModule({
   declarations: [
