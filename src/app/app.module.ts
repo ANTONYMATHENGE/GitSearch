@@ -13,11 +13,12 @@ import { SearchUserComponent } from './search-user/search-user.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { UserRepoListComponent } from './user-repo-list/user-repo-list.component';
 import { DatepipePipe } from './datepipe.pipe';
+import { GitUserPipe } from './git-user.pipe';
 // import { DatepipePipe } from './datepipe.pipe';
 // import { LogoHighlightDirective } from './logo-highlight.directive';
 
 @NgModule({
-  declarations: [ser/search-user.component';, UserDataComponent, UserRepoListComponent, DatepipePipe
+  declarations: [ser/search-user.component';, UserDataComponent, UserRepoListComponent, DatepipePipe, GitUserPipe
 import { UserRepoListComponent } from './user-repo-list/user-repo-list.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
