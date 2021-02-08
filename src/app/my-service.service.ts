@@ -11,7 +11,7 @@ import {Observable} from 'rxjs';
 export class MyServiceService {
   user: GitUser[] = [];
   _URL = 'https://api.github.com/users/';
-  token = '?access_token=3cbbddb991c02e7d5a2f0fd4224f9267a5153e5f';
+  token = '?access_token=e882a53419d447ac1f5cfc7d0fd6d33dce3a5ab6';
 
   constructor(private http: HttpClient) {
   }
@@ -33,7 +33,7 @@ export class MyServiceService {
         (results) => {
           // @ts-ignore
           this.user.push(results);
-          resolve();
+          // resolve();
         },
         (error) => {
           reject();

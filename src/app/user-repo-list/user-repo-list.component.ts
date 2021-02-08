@@ -8,9 +8,10 @@ import {RepoModel} from '../repo-model';
   styleUrls: ['./user-repo-list.component.css']
 })
 export class UserRepoListComponent implements OnInit {
-  myRepo: RepoModel[];
+  myRepo?: RepoModel[] = [];
 
   constructor(public reposerv: RepoServiceService) {
+    this.myRepo = [];
   }
 
   getRepo(searchTerm: string) {

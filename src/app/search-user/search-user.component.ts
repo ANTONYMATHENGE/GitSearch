@@ -6,14 +6,16 @@ import {Component, OnInit, Output, EventEmitter} from '@angular/core';
   styleUrls: ['./search-user.component.css']
 })
 export class SearchUserComponent implements OnInit {
-  // searchTerm: string;
+  searchTerm?: string[] = [];
   @Output() searchEmmiter = new EventEmitter<any>();
 
   constructor() {
+    // this.searchTerm = [];
+
   }
 
   emmitUser() {
-  // this.searchEmmiter.emit(this.searchTerm);
+  this.searchEmmiter.emit(this.searchTerm);
   }
 
   ngOnInit() {

@@ -1,4 +1,5 @@
 export class GitUser {
+  // tslint:disable-next-line:variable-name
   avatar_url: any;
   login: any;
   bio: any;
@@ -7,6 +8,8 @@ export class GitUser {
   location: any;
   followers: any;
   following: any;
-  created_at: Date;
+  // tslint:disable-next-line:variable-name
+  created_at: Date | undefined;
+  // tslint:disable-next-line:variable-name
   public_repos: any;
 }

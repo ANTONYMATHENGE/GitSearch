@@ -8,13 +8,14 @@ import {GitUser} from '../git-user';
   styleUrls: ['./user-data.component.css']
 })
 export class UserDataComponent implements OnInit {
-  user: GitUser[];
+  user?: GitUser[] = [];
   particlesJS: any;
 
   constructor(private service: MyServiceService) {
+    this.user = [];
   }
 
-  getSearchedUser(searchTerm) {
+  getSearchedUser(searchTerm: string) {
     this.service.searchMyUser(searchTerm).then(
       (success) => {
         this.user = this.service.user;
@@ -30,7 +31,7 @@ export class UserDataComponent implements OnInit {
     this.getSearchedUser('ANTONYMATHENGE');
     // tslint:disable-next-line:prefer-const
     let particlesJS;
-    particlesJS.load('particles-js', 'particles.json', null);
+    // particlesJS.load('particles-js', 'particles.json', null);
   }
 
 }
