@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * typescript
 
 ## Setup
-Run ``https://github.com/ANTONYMATHENGE/gitSearch.git``
+Run ``https://github.com/ANTONYMATHENGE/GitSearch.git``
 
 or download the zip file from github.
 
