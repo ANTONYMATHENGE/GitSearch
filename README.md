@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * typescript
 
 ## Setup
-Run ``https://github.com/ANTONYMATHENGE/gitSearch.git``
+Run ``https://github.com/ANTONYMATHENGE/GitSearch.git``
 
 or download the zip file from github.
 
@@ -50,7 +50,7 @@ you can also run tests with ``ng test.``
 
 
 ## License
-> MIT License &copy 2019 ANTONY
+> MIT License &copy 2021 ANTONY
 
 ## Collaborate
 To collaborate, reach me on [tonnykogi@gmail.com]()
